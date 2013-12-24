@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="456a0ae2-eaf4-4775-bb25-bc1dede1a16a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="/Applications/MAMP/htdocs/snsite/snsite/.idea/vcs.xml" afterPath="/Applications/MAMP/htdocs/snsite/snsite/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="/Applications/MAMP/htdocs/snsite/snsite/.idea/workspace.xml" afterPath="/Applications/MAMP/htdocs/snsite/snsite/.idea/workspace.xml" />
+    </list>
+    <ignored path="Site.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Site" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="18" selection-start="128" selection-end="128" vertical-scroll-proportion="0.61728394" vertical-offset="0" max-vertical-offset="4920">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/assets/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="20" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="surinamenl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/surinamenl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="115" selection-start="4843" selection-end="4843" vertical-scroll-proportion="-24.0" vertical-offset="1120" max-vertical-offset="3080">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waterkant.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/waterkant.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="113" selection-start="4836" selection-end="4836" vertical-scroll-proportion="-21.6" vertical-offset="1120" max-vertical-offset="3020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beri.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/beri.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="107" selection-start="4736" selection-end="4736" vertical-scroll-proportion="-16.8" vertical-offset="1220" max-vertical-offset="2880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="88" column="45" selection-start="0" selection-end="5202" vertical-scroll-proportion="-18.12" vertical-offset="467" max-vertical-offset="1480">
+              <folding>
+                <element signature="tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#ins#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adverteren.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/adverteren.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="100" selection-start="2201" selection-end="2201" vertical-scroll-proportion="-27.72" vertical-offset="87" max-vertical-offset="1100">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbsuriname.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dbsuriname.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="115" selection-start="4843" selection-end="4843" vertical-scroll-proportion="-13.32" vertical-offset="1387" max-vertical-offset="2960">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbsuriname_sport.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dbsuriname_sport.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="115" selection-start="4836" selection-end="4836" vertical-scroll-proportion="-15.72" vertical-offset="1307" max-vertical-offset="2940">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dwtonline.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dwtonline.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="115" selection-start="4831" selection-end="4831" vertical-scroll-proportion="-18.4" vertical-offset="1200" max-vertical-offset="3120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/assets/js/jquery191.js" />
+        <option value="$PROJECT_DIR$/assets/js/jquerymobile131.js" />
+        <option value="$PROJECT_DIR$/assets/css/crossdomain.xml" />
+        <option value="$PROJECT_DIR$/assets/css/jquerymobile131.css" />
+        <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/adverteren.html" />
+        <option value="$PROJECT_DIR$/nospang.html" />
+        <option value="$PROJECT_DIR$/beri.html" />
+        <option value="$PROJECT_DIR$/dbsuriname.html" />
+        <option value="$PROJECT_DIR$/dbsuriname_sport.html" />
+        <option value="$PROJECT_DIR$/dwtonline.html" />
+        <option value="$PROJECT_DIR$/gfc.html" />
+        <option value="$PROJECT_DIR$/starnieuws.html" />
+        <option value="$PROJECT_DIR$/surinamenl.html" />
+        <option value="$PROJECT_DIR$/waterkant.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="211" />
+    <option name="y" value="272" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Confirmation" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="last_opened_file_path" value="/Applications/MAMP/htdocs/snsite" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="/Applications/MAMP/htdocs/snsite" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/Site/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="456a0ae2-eaf4-4775-bb25-bc1dede1a16a" name="Default" comment="" />
+      <created>1387468470665</created>
+      <updated>1387468470665</updated>
+    </task>
+    <task id="LOCAL-00001" summary="adverteren blokje uitlijnen">
+      <created>1387833534159</created>
+      <updated>1387833534159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="211" y="272" width="1280" height="774" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30775446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3828756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="adverteren blokje uitlijnen" />
+    <option name="LAST_COMMIT_MESSAGE" value="adverteren blokje uitlijnen" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/gfc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="14" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/nospang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="14" selection-start="3819" selection-end="3819" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/starnieuws.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="14" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="2760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/surinamenl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="14" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="2760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/waterkant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="14" selection-start="3817" selection-end="3817" vertical-scroll-proportion="0.0" vertical-offset="845" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/beri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="12" selection-start="2283" selection-end="3719" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="2560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dbsuriname.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="14" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="62" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.0" vertical-offset="740" max-vertical-offset="2220">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dbsuriname_sport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="14" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="940" max-vertical-offset="2640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dwtonline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="14" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="2600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/assets/js/jquery191.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28407" selection-start="92635" selection-end="92635" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/assets/js/jquerymobile131.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="48" selection-start="144533" selection-end="144533" vertical-scroll-proportion="0.11764706" vertical-offset="0" max-vertical-offset="1020">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/assets/css/jquerymobile131.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26225" selection-start="26364" selection-end="26364" vertical-scroll-proportion="0.04024145" vertical-offset="0" max-vertical-offset="994">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/crossdomain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="96" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/adverteren.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="100" selection-start="2201" selection-end="2201" vertical-scroll-proportion="-27.72" vertical-offset="87" max-vertical-offset="1100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/beri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="107" selection-start="4736" selection-end="4736" vertical-scroll-proportion="-16.8" vertical-offset="1220" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dbsuriname.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="115" selection-start="4843" selection-end="4843" vertical-scroll-proportion="-13.32" vertical-offset="1387" max-vertical-offset="2960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dbsuriname_sport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="115" selection-start="4836" selection-end="4836" vertical-scroll-proportion="-15.72" vertical-offset="1307" max-vertical-offset="2940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/dwtonline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="115" selection-start="4831" selection-end="4831" vertical-scroll-proportion="-18.4" vertical-offset="1200" max-vertical-offset="3120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/gfc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="115" selection-start="4929" selection-end="4929" vertical-scroll-proportion="0.6445116" vertical-offset="1200" max-vertical-offset="3080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/nospang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="115" selection-start="4593" selection-end="4616" vertical-scroll-proportion="0.6042296" vertical-offset="1140" max-vertical-offset="3180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/starnieuws.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="115" selection-start="4840" selection-end="4840" vertical-scroll-proportion="0.45619336" vertical-offset="1267" max-vertical-offset="3080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/surinamenl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="115" selection-start="4843" selection-end="4843" vertical-scroll-proportion="-24.0" vertical-offset="1120" max-vertical-offset="3080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/waterkant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="113" selection-start="4836" selection-end="4836" vertical-scroll-proportion="-21.6" vertical-offset="1120" max-vertical-offset="3020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="45" selection-start="0" selection-end="5202" vertical-scroll-proportion="-18.12" vertical-offset="467" max-vertical-offset="1480">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/htdocs/snsite/snsite/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="128" selection-end="128" vertical-scroll-proportion="0.61728394" vertical-offset="0" max-vertical-offset="4920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

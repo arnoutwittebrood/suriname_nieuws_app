@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+    <meta http-equiv="Expires" CONTENT="-1">
+	<meta http-equiv="Content-Language" content="nl" />
+    <meta name="robots" content="all" />
+    <meta name="author" content="Arnout Wittebrood - Wittebrood Media" />
+    <meta name="Copyright" content="Copyright (c) 2014 - Arnout Wittebrood" />
+    <meta name="description" content="Een app over het nieuws uit Suriname, en het Surinaamse nieuws." />
+    <meta name="keywords" content="suriname, sranan, sranang, waterkant, paramaribo, politiek, kondreman, kondre, surinaamse grappen, surinaams nieuws, opo kondreman, parbo, para, switi sranan, de ware tijd, starnieuws, mobiel, games, no spang, nieuwsartikelen, switi sranan, de ware tijd, arnout, arnout wittebrood, wittebrood, media, tori, anansie, bouterse, brunswijk, lelydorp, boeroes, javanen, creolen, boslandcreolen, stadscreolen, bakra, bakras, chinezen, indianen, hindoestanen, zuid-amerika, goud, binnenland, jungle, regenwoud, amazone" />
+        
+	
+	<title>Suriname Nieuws - Al het nieuws uit Suriname in een overzichtelijke app.</title>
+
+    <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+    <!--<link rel="stylesheet" href="assets/css/jquerymobile131.css">-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jQuery and jQuery Mobile -->
+    <script src="assets/js/jquery191.js"></script>
+    <script src="assets/js/jquerymobile131.js"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+	<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Suriname Nieuws
+        </h3>
+    </div>
+    <div id="hoofdNav" data-role="collapsible-set" data-theme="a" data-content-theme="a">
+        <div data-role="collapsible" data-collapsed="false">
+            <h3>
+                Kies een Surinaamse krant
+            </h3>
+            <a data-role="button" data-theme="c" data-ajax="false" href="dbsuriname.html" data-icon="arrow-r"
+               data-iconpos="right">
+                Dagblad Suriname
+            </a>
+            <a data-role="button" data-theme="d" data-ajax="false" href="dbsuriname_sport.html" data-icon="arrow-r"
+               data-iconpos="right">
+                Db Suriname - Sport
+            </a>
+            <a data-role="button" data-theme="d" data-ajax="false" href="waterkant.html" data-icon="arrow-r"
+               data-iconpos="right">
+                Waterkant
+            </a>
+            <a data-role="button" data-theme="d" data-ajax="false" href="nospang.html" data-icon="arrow-r"
+               data-iconpos="right">
+                No Spang
+            </a>
+            <a data-role="button" data-theme="d" data-ajax="false" href="starnieuws.html" data-icon="arrow-r"
+               data-iconpos="right">
+                Star Nieuws
+            </a>
+            <a data-role="button" data-theme="d" data-ajax="false" href="gfc.html" data-icon="arrow-r"
+               data-iconpos="right">
+                GFC Nieuws
+            </a>
+            <a data-role="button" data-theme="d" data-ajax="false" href="dwtonline.html" data-icon="arrow-r"
+               data-iconpos="right">
+                De Ware Tijd
+            </a>
+<!--
+            <a data-role="button" data-theme="d" data-ajax="false" href="surinamenl.html" data-icon="arrow-r"
+               data-iconpos="right">
+                Suriname.nl
+            </a>
+-->
+            <a data-role="button" data-theme="a" data-ajax="false" href="beri.html" data-icon="arrow-r"
+               data-iconpos="right">
+                Beri
+            </a>
+        </div>
+    </div>
+    <div data-role="content" id="adverteren">
+        <p><a href="adverteren.html" data-rel="dialog" data-transition="pop">Uw advertentie als achtergrond?</a></p>
+    </div>
+  	<div data-theme="a" data-role="footer" data-position="fixed">
+	        <div id="bannerHome">
+	            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	            <!-- Suriname Nieuws Home -->
+	            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-0559067772454067"
+                 data-ad-slot="9411972096"
+                 data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-45916680-2', 'wittebrood.com');
+      ga('send', 'pageview');
+    </script>
+</div>
+
+</body>
+</html>

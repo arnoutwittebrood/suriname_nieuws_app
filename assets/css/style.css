@@ -1,0 +1,241 @@
+.ui-listview-filter.ui-bar-c {
+    display: none;
+}
+
+#hoofdNav {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/*1px nodig rechts*/
+
+#adverteren {
+    position: absolute;
+    top: -25px;
+    right: 1px;
+    z-index: 0;
+    width: 35%;
+    text-align: right;
+    line-height: 12px;
+}
+
+#adverteren a, #adverteren a:visited {
+    color: #646464;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 11px;
+}
+
+.ui-bar-a.ui-header.ui-header-fixed.fade.ui-fixed-overlay, .ui-bar-a.ui-header {
+    background: #333333 url('../img/bg/logo.png') no-repeat center 10px;
+    background-size: 24px auto;
+}
+
+#bannerHome > iframe {
+    border: 3px solid #000;
+}
+
+.ui-mobile-viewport, .ui-body-c, .ui-overlay-c {
+    /*background-color: #333333;*/
+}
+
+.ui-body-c, .ui-overlay-c, .ui-mobile-viewport {
+    background:  no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.ui-header .ui-btn, .ui-footer .ui-btn, .ui-bar .ui-btn {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    min-height: 1.1em;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: 40px 20% .8em;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: 0!important;
+}
+
+.ui-page .ui-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+
+.articleContent {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 10px;
+    color: #444;
+    text-shadow: 0 1px 1px #f6f6f6;
+    background-image: -moz-linear-gradient(top,#fefefe,#eee);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fdfdfd),color-stop(1,#eee));
+    overflow: hidden;
+}
+
+#popupBody {
+    background-image: -moz-linear-gradient(top,#fefefe,#eee);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fdfdfd),color-stop(1,#eee));
+}
+
+.articleContent > p  {
+    display: inline;
+}
+
+.articleContent > p > img {
+    display: inline;
+    margin-left: 30px;
+}
+
+/*dwt contentblock*/
+.articleContent > img {
+    display: block;
+    float: right;
+}
+
+/*iPad in landscape*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    body {
+        width:768px;
+        height:1024px;
+        padding:0;
+        margin:0;
+
+        /*
+                        background:url("assets/img/bg-ipad-landscape.jpg") no-repeat;
+                        background-size: 1024px 768px;
+        */
+    }
+
+    #bannerHome {
+        width: 1024px;
+    }
+}
+
+/*iPad in portrait*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    #bannerHome {
+        width: 768px;
+    }
+}
+
+/*Retina iPad in landscape*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        width:768px;
+        height:1024px;
+        padding:0;
+        margin:0;
+        /*
+                        background:url("assets/img/bg-ipad-landscape.jpg") no-repeat;
+                        background-size: 1024px 768px;
+        */
+    }
+
+    #bannerHome {
+        width: 1024px;
+    }
+}
+
+/*Retina iPad in portrait*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+    body  {
+        width:768px;
+        height:1024px;
+        padding:0;
+        margin:0;
+        /*
+                        background:url("assets/img/bg-ipad-portrait.jpg") no-repeat;
+                        background-size: 768px 1024px;
+        */
+    }
+
+    #bannerHome {
+        width: 768px;
+    }
+}
+
+/*iPhone 5 in landscape*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+    .ui-page .ui-footer {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    #bannerHome {
+        width: 568px;
+    }
+}
+
+/*iPhone 5 in portrait*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+    .ui-page .ui-footer {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    #bannerHome {
+        width: 320px;
+    }
+}
+
+/*iPhone 2G-4S in landscape*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) {
+    .ui-page .ui-footer {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    #bannerHome {
+        width: 480px;
+    }
+}
+
+/*iPhone 2G-4S in portrait*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+    .ui-page .ui-footer {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    #bannerHome {
+        width: 320px;
+    }
+}

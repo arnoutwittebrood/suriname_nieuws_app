@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+    <meta http-equiv="Expires" CONTENT="-1">
+    <meta http-equiv="Content-Language" content="nl" />
+    <meta name="robots" content="all" />
+    <meta name="author" content="Arnout Wittebrood - Wittebrood Media" />
+    <meta name="Copyright" content="Copyright (c) 2014 - Arnout Wittebrood" />
+    <meta name="description" content="Een app over het nieuws uit Suriname, en het Surinaamse nieuws." />
+    <meta name="keywords" content="suriname, sranan, sranang, waterkant, paramaribo, politiek, kondreman, kondre, surinaamse grappen, surinaams nieuws, opo kondreman, parbo, para, switi sranan, de ware tijd, starnieuws, mobiel, games, no spang, nieuwsartikelen, switi sranan, de ware tijd, arnout, arnout wittebrood, wittebrood, media, tori, anansie, bouterse, brunswijk, lelydorp, boeroes, javanen, creolen, boslandcreolen, stadscreolen, bakra, bakras, chinezen, indianen, hindoestanen, zuid-amerika, goud, binnenland, jungle, regenwoud, amazone" />
+
+
+    <title>Suriname Nieuws - Al het nieuws uit Suriname in een overzichtelijke app.</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .articleContent  img {
+            display: none;
+        }
+    </style>
+
+    <script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.js"></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script type="text/javascript">
+
+        /* configuration */
+        var maxLength = 50;
+        /* writing HTML */
+        document.write(
+                '<div data-role="page" id="list">' +
+                        '  <div data-role="header" data-position="fixed">' +
+                        '    <h1><span id="widgetTitle">...</span> ' +
+                        '  </div>' +
+                        '  <div data-role="content">' +
+                        '    <ul data-role="listview" data-filter="true" id="articleList">'
+        );
+        for(var i=1; i<=maxLength; i++){
+            document.write(
+                    '<li id="list' + i + '"><a href="#article' + i + '" id="link' + i + '">&nbsp;</a></li>'
+            );
+        }
+        document.write(
+                '    </ul>' +
+                        ' <div data-role="content"><a data-role="button" data-ajax="false" data-theme="a" id="homeButton" href="index.html" data-icon="home data-iconpos="left">Overzicht kranten</a></div> ' +
+                        '  </div>' +
+                        ' <div data-theme="a" data-role="footer" data-position="fixed"> ' +
+                        ' <div id="bannerHome"> ' +
+                        ' <ins class="adsbygoogle" ' +
+                        ' style="display:block" ' +
+                        ' data-ad-client="ca-pub-0559067772454067" ' +
+                        ' data-ad-slot="4951419696" ' +
+                        ' data-ad-format="auto"></ins> '
+
+
+
+        );
+
+        $( window ).load(function() {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        });
+
+
+        document.write(
+                ' </div> ' +
+                        ' </div> ' +
+
+                        '</div>'
+        );
+        for(i=1; i<=maxLength; i++){
+            document.write(
+                    '<div data-role="page" id="article' + i + '">' +
+                            '  <div data-role="header" data-position="inline">' +
+                            '    <a href="#list" data-role="button" data-icon="arrow-l" data-back="true">GFC</a>' +
+                            '    <h1 id="articleHeader' + i + '">&nbsp;</h1>' +
+                            '    <a href="#" target="_blank" id="openButton' + i + '" data-role="button" data-icon="plus"' +
+                            '      class="ui-btn-right" rel="external">Open in Safari</a>' +
+                            '  </div>' +
+                            '  <div data-role="content">' +
+                            '    <div id="articleContent' + i + '" class="articleContent"></div>' +
+                            '    <div data-role="controlgroup" data-type="horizontal">' +
+                            '      <a href="#article' + String(i-1) + '" data-role="button" data-transition="fade" data-icon="arrow-l"' +
+                            '        data-inline="true" class="prevButton">Vorige</a>' +
+                            '      <a href="#article' + String(i+1) + '" data-role="button" data-transition="fade" data-icon="arrow-r"' +
+                            '        data-inline="true" class="nextButton" data-iconpos="right">Volgende</a>' +
+                            '    </div>' +
+                            '   </div>' +
+                        //'   <div data-theme="a" data-role="footer" data-position="fixed"> ' +
+                        //'  </div>'  +
+                            '</div>'
+            );
+        }
+        /* JSONP */
+        $(function(){
+
+            getOnlineFeed('http://gfcnieuws.net/category/binnenland/feed/');
+
+        });
+        /* functions */
+        var listEntries = function(json) {
+            if (!json.responseData.feed.entries) return false;
+            $('#widgetTitle').text(json.responseData.feed.title);
+            var articleLength =json.responseData.feed.entries.length;
+            articleLength = (articleLength > maxLength) ? maxLength : articleLength;
+            for (var i = 1; i <= articleLength ; i++) {
+                var entry = json.responseData.feed.entries[i-1];
+                $('#link' + i).text(entry.title);
+                $('#articleHeader' + i).text(entry.title);
+                $('#openButton' + i).attr('href', entry.link);
+                $('#articleContent' + i).append(entry.content);
+            }
+            $('#article1 .prevButton').remove();
+            $('#article' + articleLength + ' .nextButton').remove();
+            if (articleLength < maxLength) {
+                for (i = articleLength + 1; i <= maxLength; i++) {
+                    $('#list' + i).remove();
+                    $('#article' + i).remove();
+                }
+            }
+        };
+        var getOnlineFeed = function(url) {
+            var script = document.createElement('script');
+            script.setAttribute('src', 'http://ajax.googleapis.com/ajax/services/feed/load?callback=listEntries&hl=ja&output=json-in-script&q='
+                    + encodeURIComponent(url)
+                    + '&v=1.0&num=' + maxLength);
+            script.setAttribute('type', 'text/javascript');
+            document.documentElement.firstChild.appendChild(script);
+        };
+        var getOfflineFeed = function(url) {
+            var script = document.createElement('script');
+            script.setAttribute('src', url);
+            script.setAttribute('type', 'text/javascript');
+            document.documentElement.firstChild.appendChild(script);
+        };
+    </script>
+
+</head>
+<body>
+</body>
+</html>
